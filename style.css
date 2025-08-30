@@ -1,0 +1,140 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0f0f0f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+.login-box {
+  display: flex;
+  width: 800px;
+  height: 450px;
+  background: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+   box-shadow: 
+   0 0 20px rgba(238, 255, 0, 0.8),
+   0 0 40px rgba(0, 204, 255, 0.9);
+
+}
+
+
+.login-left {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #1a1a1a;
+}
+
+.login-left h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  color: #ff512f;
+  font-size: 14px;
+  margin: 10px 0 5px;
+}
+
+.input-box {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 12px 40px 12px 12px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  background: #2a2a2a;
+  color: #fff;
+  font-size: 14px;
+}
+
+.input-box .icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+}
+
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(45deg, #ff512f, #dd2476);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.bottom-text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #bbb;
+}
+
+.bottom-text a {
+  color: #ff512f;
+  text-decoration: none;
+}
+
+.bottom-text a:hover {
+  text-decoration: underline;
+}
+
+
+.login-right {
+  flex: 1;
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.login-right h1 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.login-right p {
+  font-size: 15px;
+  line-height: 1.6;
+}
